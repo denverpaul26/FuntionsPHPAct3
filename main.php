@@ -20,5 +20,6 @@ echo calculate(a: 20, b: 10, command: 'subtract'). "<br>";
 echo calculate(a: 5, b: 2, command: 'multiply'). "<br>";
 echo calculate(a: 7, b: 2, command: 'divide');
 
+$str = "WebSystemTechnologiesIT204"
 
 ?>
