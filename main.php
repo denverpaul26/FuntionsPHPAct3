@@ -15,9 +15,9 @@ function calculate($a, $b, $command): mixed {
     }
 }
 
-echo calculate(a: 10, b: 5, command: 'add') . "\n";
-echo calculate(a: 20, b: 10, command: 'subtract'). "\n";
-echo calculate(a: 5, b: 2, command: 'multiply'). "\n";
+echo calculate(a: 10, b: 5, command: 'add') . "<br>";
+echo calculate(a: 20, b: 10, command: 'subtract'). "<br>";
+echo calculate(a: 5, b: 2, command: 'multiply'). "<br>";
 echo calculate(a: 7, b: 2, command: 'divide');
 
 
