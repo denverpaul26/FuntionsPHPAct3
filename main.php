@@ -1,10 +1,24 @@
 <?php 
 
-function sum($a, $b): mixed {
-    return $a + $b;
+function calculate($a, $b, $command): mixed {
+    switch($command) {
+        case 'add':
+            return $a + $b;
+        case 'subtract':
+            return $a - $b;
+        case 'multiply':
+            return $a * $b;
+        case 'divide':
+            return $a / $b;
+        default:
+            return "invalid operation";
+    }
 }
 
-echo sum(a: 5, b: 3);
+echo calculate(a: 10, b: 5, command: 'add');
+echo calculate(a: 20, b: 10, command: 'subtract');
+echo calculate(a: 20, b: 10, command: 'subtract');
+echo calculate(a: 20, b: 10, command: 'subtract');
 
 
 ?>
