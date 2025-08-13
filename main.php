@@ -15,10 +15,10 @@ function calculate($a, $b, $command): mixed {
     }
 }
 
-echo calculate(a: 10, b: 5, command: 'add');
-echo calculate(a: 20, b: 10, command: 'subtract');
-echo calculate(a: 20, b: 10, command: 'subtract');
-echo calculate(a: 20, b: 10, command: 'subtract');
+echo calculate(a: 10, b: 5, command: 'add') . "\n";
+echo calculate(a: 20, b: 10, command: 'subtract'). "\n";
+echo calculate(a: 20, b: 10, command: 'multiply'). "\n";
+echo calculate(a: 20, b: 10, command: 'divide');
 
 
 ?>
