@@ -2,7 +2,7 @@
 <html lang="en">
 <body>
     
-    <?php include 'main.php' ?>
+    <?php include 'main.php'  ?>
 
 </body>
 </html>
