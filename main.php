@@ -11,7 +11,7 @@ function calculate($a, $b, $command): mixed {
         case 'divide':
             return $a / $b;
         default:
-            return "invalid operation";
+            return "Invalid Operation";
     }
 }
 
